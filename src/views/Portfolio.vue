@@ -19,14 +19,20 @@
 
 <script>
 import NavBar from '../components/NavBar'
-
+import Card from '../components/Card'
+import projects from '../data/projects'
 export default {
   name: 'Portfolio',
   components: {
-    NavBar
+    NavBar,
+    Card
+  },
+  data() {
+    return {
+      projects
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped></style>
-
