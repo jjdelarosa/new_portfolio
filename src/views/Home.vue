@@ -1,11 +1,42 @@
+  
 <template>
-  <div class="home">
-    <h1>Hello There!</h1>
+  <div>
+    <NavBar />
+    <div
+      class="relative h-screen w-screen bg-cover bg-center shadow-2xl"
+      :style="`background-image:url(${bgImage})`"
+    >
+      <div class="h-screen w-screen bg-green-600 opacity-75" />
+      <div
+        class="absolute h-screen w-screen top-0 flex flex-col justify-center items-center"
+      >
+        <h1
+          class="text-6xl font-bold text-white px-4 hover:bg-blue-800 hover:text-red-800 opacity-75"
+        >
+          John De La Rosa
+        </h1>
+        <h3
+          class="text-3xl font-bold text-white px-4 hover:bg-blue-800 hover:text-red-800 opacity-75"
+        >
+          Full Stack Developer / Software Architect
+        </h3>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import NavBar from '../components/NavBar'
+import bgImage from '../assets/bg.jpg'
 export default {
-  name: "Home"
-};
+  name: 'Home',
+  components: {
+    NavBar
+  },
+  data() {
+    return {
+      bgImage
+    }
+  }
+}
 </script>
