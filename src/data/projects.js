@@ -43,10 +43,17 @@ const projects = [
     url: 'https://vuetodo.thatsmycreal.com/'
   },
   {
-    name: 'Project draft 1',
+    name: 'Post It',
+    description: 'A Vue.js Application with Vuex, implementing a CRUD Notes app',
+    image: postit,
+    hashtags: ['crud', 'vuejs', 'javascript', 'tailwind','vuex','vuex-router'],
+    url: 'https://mypostit.thatsmycreal.com/'
+  },
+  {
+    name: 'Project Draft 1',
     description: 'GroupCodingHub',
     image: draft1,
-    hashtags: ['html5', 'css', 'javascript', 'tailwind','vuex','vuex-router'],
+    hashtags: ['html5', 'vuejs', 'javascript', 'tailwind','vuex','vuex-router'],
     url: 'https://draft.thatsmycreal.com/'
   }
 ]
