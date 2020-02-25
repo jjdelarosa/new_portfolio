@@ -42,7 +42,7 @@ const projects = [
     url: 'https://vuetodo.thatsmycreal.com/'
   },
   {
-    name: 'Post_It',
+    name: 'Post It',
     description: 'A Vue.js Application with Vuex, implementing a CRUD Notes app',
     image: postit,
     hashtags: ['crud', 'vuejs', 'javascript', 'tailwind','vuex','vuex-router'],
