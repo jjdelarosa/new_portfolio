@@ -3,7 +3,7 @@ import todob from '../assets/projects/02.png'
 import todot from '../assets/projects/03.png'
 import inventory from '../assets/projects/04.png'
 import vuetodo from '../assets/projects/05.png'
-import postit from '../assets/projects/06.PNG'
+import postit from '../assets/projects/06.png'
 
 const projects = [
   {
