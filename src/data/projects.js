@@ -4,7 +4,7 @@ import todot from '../assets/projects/03.png'
 import inventory from '../assets/projects/04.png'
 import vuetodo from '../assets/projects/05.png'
 import postit from '../assets/projects/06.png'
-import draft1 from '../assets/projects/07.PNG'
+import draft1 from '../assets/projects/07.png'
 
 const projects = [
   {
