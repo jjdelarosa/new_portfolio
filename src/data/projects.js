@@ -4,6 +4,7 @@ import todot from '../assets/projects/03.png'
 import inventory from '../assets/projects/04.png'
 import vuetodo from '../assets/projects/05.png'
 import postit from '../assets/projects/06.png'
+import draft1 from '../assets/projects/07.PNG'
 
 const projects = [
   {
@@ -42,11 +43,11 @@ const projects = [
     url: 'https://vuetodo.thatsmycreal.com/'
   },
   {
-    name: 'Post It',
-    description: 'A Vue.js Application with Vuex, implementing a CRUD Notes app',
-    image: postit,
-    hashtags: ['crud', 'vuejs', 'javascript', 'tailwind','vuex','vuex-router'],
-    url: 'https://mypostit.thatsmycreal.com/'
+    name: 'Project draft 1',
+    description: 'GroupCodingHub',
+    image: draft1,
+    hashtags: ['html5', 'css', 'javascript', 'tailwind','vuex','vuex-router'],
+    url: 'https://draft.thatsmycreal.com/'
   }
 ]
 
