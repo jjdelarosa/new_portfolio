@@ -6,6 +6,7 @@ import vuetodo from '../assets/projects/05.png'
 import postit from '../assets/projects/06.png'
 import draft1 from '../assets/projects/07.png'
 import login from '../assets/projects/08.png'
+import superhero from '../assets/projects/09.png'
 
 const projects = [
   {
@@ -63,6 +64,13 @@ const projects = [
     image: draft1,
     hashtags: ['html5', 'vuejs', 'javascript', 'tailwind','vuex','vuex-router'],
     url: 'https://draft.thatsmycreal.com/'
+  },
+  {
+    name: 'Superhero Finder',
+    description: 'A Vue.js Application with Vuex, implementing a API Superhero database',
+    image: superhero,
+    hashtags: ['html5', 'vuejs', 'javascript', 'tailwind','vuex','vuex-router', 'api'],
+    url: 'https://superhero.thatsmycreal.com/'
   }
 ]
 
