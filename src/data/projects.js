@@ -8,6 +8,7 @@ import draft1 from '../assets/projects/07.png'
 import login from '../assets/projects/08.png'
 import superhero from '../assets/projects/09.png'
 import movies from '../assets/projects/10.png'
+import blog from '../assets/projects/11.png'
 
 const projects = [
   {
@@ -79,6 +80,13 @@ const projects = [
     image: movies,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'api'],
     url: 'https://movies.thatsmycreal.com/'
+  },
+  {
+    name: 'BlogApp',
+    description: 'A Vue.js Application with Vuex, implementing a Blog API database but also communicating with the back-end',
+    image: blog,
+    hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'api'],
+    url: 'https://blog.thatsmycreal.com/'
   }
 ]
 
