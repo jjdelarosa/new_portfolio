@@ -9,6 +9,7 @@ import login from '../assets/projects/08.png'
 import superhero from '../assets/projects/09.png'
 import movies from '../assets/projects/10.png'
 import blog from '../assets/projects/11.png'
+import chat from '../assets/projects/12.png'
 
 const projects = [
   {
@@ -87,6 +88,13 @@ const projects = [
     image: blog,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'api'],
     url: 'https://blog.thatsmycreal.com/'
+  },
+  {
+    name: 'Chat',
+    description: 'A Vue.js Application with Vuex, implementing a Chat database with firebase',
+    image: chat,
+    hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'firebase'],
+    url: 'https://chat.thatsmycreal.com/'
   }
 ]
 
