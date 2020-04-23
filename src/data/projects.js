@@ -10,6 +10,7 @@ import superhero from '../assets/projects/09.png'
 import movies from '../assets/projects/10.png'
 import blog from '../assets/projects/11.png'
 import chat from '../assets/projects/12.png'
+import shop from '../assets/projects/13.png'
 
 const projects = [
   {
@@ -95,6 +96,13 @@ const projects = [
     image: chat,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'firebase'],
     url: 'https://chat.thatsmycreal.com/'
+  },
+  {
+    name: 'The Video Game Shop',
+    description: 'A Vue.js Application with Vuex, implementing a Shop database with firebase functions',
+    image: shop,
+    hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'firebase', 'firebase-functions'],
+    url: 'https://shop.thatsmycreal.com/'
   }
 ]
 
