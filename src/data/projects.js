@@ -114,7 +114,7 @@ const projects = [
     url: 'https://pong.thatsmycreal.com/'
   },
   {
-    name: 'Grup Coding Hub',
+    name: 'Group Coding Hub',
     description: 'A Vue.js Application with Vuex, implementing a Chat database with firebase and also communication with the back-end',
     image: draft3,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify', 'firebase', 'vuex-router', 'api'],
