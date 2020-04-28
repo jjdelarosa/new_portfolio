@@ -12,6 +12,7 @@ import blog from '../assets/projects/11.png'
 import chat from '../assets/projects/12.png'
 import shop from '../assets/projects/13.png'
 import pong from '../assets/projects/14.png'
+import draft3 from '../assets/projects/15.png'
 
 const projects = [
   {
@@ -111,6 +112,13 @@ const projects = [
     image: pong,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify', 'Vuep5'],
     url: 'https://pong.thatsmycreal.com/'
+  },
+  {
+    name: 'Grup Coding Hub',
+    description: 'A Vue.js Application with Vuex, implementing a Chat database with firebase and also communication with the back-end',
+    image: dratf3,
+    hashtags: ['html5', 'vuejs', 'javascript', 'vuetify', 'firebase', 'vuex-router', 'api'],
+    url: 'https://draft3.thatsmycreal.com/'
   }
 ]
 
