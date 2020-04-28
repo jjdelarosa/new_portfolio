@@ -116,7 +116,7 @@ const projects = [
   {
     name: 'Grup Coding Hub',
     description: 'A Vue.js Application with Vuex, implementing a Chat database with firebase and also communication with the back-end',
-    image: dratf3,
+    image: draft3,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify', 'firebase', 'vuex-router', 'api'],
     url: 'https://draft3.thatsmycreal.com/'
   }
