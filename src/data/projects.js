@@ -11,6 +11,7 @@ import movies from '../assets/projects/10.png'
 import blog from '../assets/projects/11.png'
 import chat from '../assets/projects/12.png'
 import shop from '../assets/projects/13.png'
+import pong from '../assets/projects/14.png'
 
 const projects = [
   {
@@ -103,6 +104,13 @@ const projects = [
     image: shop,
     hashtags: ['html5', 'vuejs', 'javascript', 'vuetify','vuex','vuex-router', 'firebase', 'firebase-functions'],
     url: 'https://shop.thatsmycreal.com/'
+  },
+  {
+    name: 'The Pong Game',
+    description: 'A Vue.js Application with Vuex, implementing a Vuep5',
+    image: pong,
+    hashtags: ['html5', 'vuejs', 'javascript', 'vuetify', 'Vuep5'],
+    url: 'https://pong.thatsmycreal.com/'
   }
 ]
 
